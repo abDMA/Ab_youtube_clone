@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  transition: .3s ease-in-out;
+
+}
+
+.inputSearch{
+  width: 350px;
+  border: none;
+  font-size: 15px;
+  font-weight: 500;
+  outline: none;
+}
+
+.category-btn{
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  border: none;
+  margin: 1px;
+  outline: none;
+  cursor: pointer;
+  transition: .3s ease;
+  background-color: black;
+ 
+}
+.category-btn span{
+  font-size: 15px;
+  padding: 4px 20px;
+}
+.category-btn:hover{
+  background-color: #fc1403e1;
+  color: white ;
+}
+.category-btn:hover span{
+  color: white !important ;
+
+}
+@media (min-width: 120px) and ( max-width:354px){
+  .viddeetail{
+    width: 9;
+  }
+ 
+}
