@@ -23,7 +23,7 @@ const Channel = ({channelCard,marginTop,display,alignItems,justifyContent,flexDi
   
   return (
  <Card sx={{width: '100%',height: '100%',padding:{sm:'67px 72px',xs:"53px 72px"} ,backgroundColor:'#121010', marginTop,display,alignItems,justifyContent,flexDirection,  }}>
-     <Link to={channelId }>
+     <Link to={`/channel/${channelId}`}>
       <CardMedia
        component='img'
        image={image}
